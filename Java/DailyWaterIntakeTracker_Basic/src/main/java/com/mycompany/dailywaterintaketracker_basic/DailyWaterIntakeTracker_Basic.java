@@ -13,6 +13,8 @@ public class DailyWaterIntakeTracker_Basic {
     
     public static void main(String[] args) {
         getInput();
+        calculateTotal();
+        displayResult();
     }
     
     public static void getInput(){
