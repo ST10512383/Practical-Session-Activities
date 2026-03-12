@@ -16,11 +16,18 @@ public class DailyWaterIntakeTracker_Basic {
         
     }
     
-    public static void getInput(){
+    private void getInput(){
+        System.out.println("Enter glasses of water in the morning: ");
+        morning = input.nextDouble();
         
+        System.out.println("Enter glasses of water in the afternoon");
+        afternoon = input.nextDouble();
+        
+        System.out.println("Enter glasses of water in the evening");
+        evening = input.nextDouble();
     }
     
-    public static void calculateTotal(){
+    public void calculateTotal(){
         
     }
     
