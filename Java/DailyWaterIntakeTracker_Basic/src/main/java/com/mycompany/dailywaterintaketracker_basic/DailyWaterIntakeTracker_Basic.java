@@ -4,17 +4,18 @@ import java.util.Scanner;
 
 public class DailyWaterIntakeTracker_Basic {
 
-    private static final Scanner input = new Scanner(System.in);
+    public static final Scanner input = new Scanner(System.in);
     
-    private static double morning = 0;
-    private static double afternoon = 0;
-    private static double evening = 0;
+    public static double morning = 0;
+    public static double afternoon = 0;
+    public static double evening = 0;
+    static double totalAmount = 0;
     
     public static void main(String[] args) {
         getInput();
     }
     
-    private static void getInput(){
+    public static void getInput(){
         System.out.print("Enter glasses of water in the morning: ");
         morning = input.nextDouble();
         
