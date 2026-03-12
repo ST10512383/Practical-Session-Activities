@@ -1,7 +1,10 @@
 package com.mycompany.dailywaterintaketracker_basic;
 
+import java.util.Scanner;
+
 public class DailyWaterIntakeTracker_Basic {
 
+    private static final Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
         
         double morning = 0;
@@ -18,7 +21,7 @@ public class DailyWaterIntakeTracker_Basic {
         
     }
     
-    public static void displayResult(){
+    public void displayResult(){
         
     }
 }
