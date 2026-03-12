@@ -6,32 +6,30 @@ public class DailyWaterIntakeTracker_Basic {
 
     private static final Scanner input = new Scanner(System.in);
     
-    private double morning = 0;
-    private double afternoon = 0;
-    private double evening = 0;
+    private static double morning = 0;
+    private static double afternoon = 0;
+    private static double evening = 0;
     
     public static void main(String[] args) {
-        
-        
-        
+        getInput();
     }
     
-    private void getInput(){
-        System.out.println("Enter glasses of water in the morning: ");
+    private static void getInput(){
+        System.out.print("Enter glasses of water in the morning: ");
         morning = input.nextDouble();
         
-        System.out.println("Enter glasses of water in the afternoon");
+        System.out.print("Enter glasses of water in the afternoon: ");
         afternoon = input.nextDouble();
         
-        System.out.println("Enter glasses of water in the evening");
+        System.out.print("Enter glasses of water in the evening: ");
         evening = input.nextDouble();
     }
     
-    public void calculateTotal(){
+    public static void calculateTotal(){
         
     }
     
-    public void displayResult(){
+    public static void displayResult(){
         
     }
 }
