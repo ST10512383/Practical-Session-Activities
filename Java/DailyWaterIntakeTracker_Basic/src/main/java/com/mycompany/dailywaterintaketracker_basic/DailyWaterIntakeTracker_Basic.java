@@ -27,7 +27,7 @@ public class DailyWaterIntakeTracker_Basic {
     }
     
     public static void calculateTotal(){
-        
+        totalAmount = morning + afternoon + evening;
     }
     
     public static void displayResult(){
