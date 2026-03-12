@@ -31,6 +31,6 @@ public class DailyWaterIntakeTracker_Basic {
     }
     
     public static void displayResult(){
-        
+        System.out.println("Total glasses consumed today: " + totalAmount);
     }
 }
