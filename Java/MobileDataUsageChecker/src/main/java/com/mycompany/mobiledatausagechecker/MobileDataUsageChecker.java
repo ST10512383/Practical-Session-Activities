@@ -14,6 +14,12 @@ public class MobileDataUsageChecker {
     }
     
     public static void startApp(){
+        
+        // Prompt the user for data used
+        double usedData = Double.parseDouble(JOptionPane.showInputDialog("Enter amount of data used in GB"));
+        
+        // Invoke calculateRemaining and pass usedData as a variable
+        calculateRemaining(usedData);
     }
     public static void calculateRemaining(double used) {
         
