@@ -21,7 +21,11 @@ public class MobileDataUsageChecker {
         // Invoke calculateRemaining and pass usedData as a variable
         calculateRemaining(usedData);
     }
+    
     public static void calculateRemaining(double used) {
+        
+        // Declare remainingData variable and calculate the remaining data that the user has left
+        double remainingData = DATA_LIMIT - used;
         
     }
     public static boolean isExceeded(double used){
