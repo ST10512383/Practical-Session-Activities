@@ -27,6 +27,15 @@ public class MobileDataUsageChecker {
         // Declare remainingData variable and calculate the remaining data that the user has left
         double remainingData = DATA_LIMIT - used;
         
+        // Declare isExceeded variable and store isExceeded method return to that variable
+        boolean isExceeded = isExceeded(used);
+        
+        // Show the user their remaining data and if their limit has been exceeded
+        if (isExceeded == false) {
+            JOptionPane.showMessageDialog(null, "You have " + remainingData + "GB left. Your limit has not been exeeded");
+        } else if (isExceeded == true) {
+            JOptionPane.showMessageDialog(null, "You have " + remainingData + "GB left. Your limit has been exeeded");
+        }
     }
     
     public static boolean isExceeded(double used){
