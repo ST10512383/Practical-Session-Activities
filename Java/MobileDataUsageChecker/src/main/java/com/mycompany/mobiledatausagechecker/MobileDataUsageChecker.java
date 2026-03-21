@@ -28,6 +28,9 @@ public class MobileDataUsageChecker {
         double remainingData = DATA_LIMIT - used;
         
     }
+    
     public static boolean isExceeded(double used){
+        // Check if used data is bigger than their data limit
+        return used > DATA_LIMIT;
     }
 }
