@@ -9,6 +9,10 @@ public class MobileDataUsageChecker {
     final static double DATA_LIMIT = 10.0;
     
     public static void main(String[] args) {
+        // invoke startApp method
+        startApp();
+    }
+    
     public static void startApp(){
     }
     public static void calculateRemaining(double used) {
