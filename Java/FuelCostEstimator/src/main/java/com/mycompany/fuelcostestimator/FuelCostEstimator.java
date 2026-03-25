@@ -27,8 +27,10 @@ public class FuelCostEstimator {
         double tripCost = calculateTripCost(fuelNeeded, pricePerLitre);
     }
     
-    public static void calculateFuelNeeded(double distance, double consumption) {
-        
+    // Calculate the fuel needed and return it back to main
+    public static double calculateFuelNeeded(double distance, double consumption) {
+        double fuelNeeded  = distance / consumption;
+        return fuelNeeded;
     }
     
     public static void calculateTripCost(double litresNeeded, double fuelPrice) {
