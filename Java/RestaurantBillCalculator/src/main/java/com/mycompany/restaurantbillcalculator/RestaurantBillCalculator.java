@@ -29,5 +29,7 @@ public class RestaurantBillCalculator {
         // Calculate and assign back to variable
         double totalBill = mealPrice + drinkPrice + dessertPrice;
         
+        // Print custom message with bill total
+        System.out.print("The total price of the meal is: R" + totalBill);
     }
 }
