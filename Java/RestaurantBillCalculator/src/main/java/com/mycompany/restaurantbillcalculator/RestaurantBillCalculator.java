@@ -11,13 +11,13 @@ public class RestaurantBillCalculator {
         Scanner userInput = new Scanner(System.in);
         
         // Ask the user for their meal, drink and dessert price
-        System.out.print("Enter your meal price: ");
+        System.out.print("Enter your meal price: R");
         double meal = userInput.nextDouble();
         
-        System.out.println("Enter your drink price: ");
+        System.out.print("Enter your drink price: R");
         double drink = userInput.nextDouble();
         
-        System.out.println("Enter your dessert price: ");
+        System.out.print("Enter your dessert price: R");
         double dessert = userInput.nextDouble();
         
     }
