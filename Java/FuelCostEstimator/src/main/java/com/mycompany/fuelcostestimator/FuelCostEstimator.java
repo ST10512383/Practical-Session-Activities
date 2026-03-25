@@ -12,10 +12,13 @@ public class FuelCostEstimator {
         
         // Prompt the user for information
         System.out.print("Enter distance: ");
+        double totalDistance = userInput.nextDouble();
         
         System.out.print("Enter fuel consumption (km per litre): ");
+        double kmPerLitre = userInput.nextDouble();
         
         System.out.print("Enter fuel price per litre: ");
+        double pricePerLitre = userInput.nextDouble();
         
     }
     }
