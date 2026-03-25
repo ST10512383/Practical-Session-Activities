@@ -25,6 +25,10 @@ public class FuelCostEstimator {
         
         // Declare tripCost and invoke calculateTripCost method
         double tripCost = calculateTripCost(fuelNeeded, pricePerLitre);
+        
+        // Print custom message with variable
+        System.out.println("Fuel needed: " + fuelNeeded + " litres");
+        System.out.print("Trip cost: R" + tripCost);
     }
     
     // Calculate the fuel needed and return it back to main
