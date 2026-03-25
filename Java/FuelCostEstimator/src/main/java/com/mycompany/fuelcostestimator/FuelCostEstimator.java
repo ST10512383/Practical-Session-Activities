@@ -33,8 +33,10 @@ public class FuelCostEstimator {
         return fuelNeeded;
     }
     
-    public static void calculateTripCost(double litresNeeded, double fuelPrice) {
-        
+    // Calculate the trip cost and return it back to main
+    public static double calculateTripCost(double litresNeeded, double fuelPrice) {
+        double tripCost = litresNeeded * fuelPrice;
+        return tripCost;
     }
     
 }
