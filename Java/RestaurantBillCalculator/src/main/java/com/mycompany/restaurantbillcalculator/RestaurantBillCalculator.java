@@ -21,5 +21,8 @@ public class RestaurantBillCalculator {
         double dessert = userInput.nextDouble();
         
     }
+    
+    public static void calculateTotal(double mealPrice, double drinkPrice, double dessertPrice) {
+        
     }
 }
