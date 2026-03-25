@@ -25,5 +25,9 @@ public class FuelCostEstimator {
     public static void calculateFuelNeeded(double distance, double consumption) {
         
     }
+    
+    public static void calculateTripCost(double litresNeeded, double fuelPrice) {
+        
     }
+    
 }
