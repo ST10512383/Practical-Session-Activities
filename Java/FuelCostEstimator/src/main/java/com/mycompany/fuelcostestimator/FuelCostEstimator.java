@@ -20,6 +20,11 @@ public class FuelCostEstimator {
         System.out.print("Enter fuel price per litre: ");
         double pricePerLitre = userInput.nextDouble();
         
+        // Declare fuelNeeded and Invoke calculateFuelNeeded method
+        double fuelNeeded = calculateFuelNeeded(totalDistance, kmPerLitre);
+        
+        // Declare tripCost and invoke calculateTripCost method
+        double tripCost = calculateTripCost(fuelNeeded, pricePerLitre);
     }
     
     public static void calculateFuelNeeded(double distance, double consumption) {
