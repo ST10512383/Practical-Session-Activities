@@ -20,6 +20,9 @@ public class RestaurantBillCalculator {
         System.out.print("Enter your dessert price: R");
         double dessert = userInput.nextDouble();
         
+        // Invoke calculateTotal and pass variables to method
+        calculateTotal(meal, drink, dessert);
+        
     }
     
     public static void calculateTotal(double mealPrice, double drinkPrice, double dessertPrice) {
