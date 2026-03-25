@@ -21,5 +21,9 @@ public class FuelCostEstimator {
         double pricePerLitre = userInput.nextDouble();
         
     }
+    
+    public static void calculateFuelNeeded(double distance, double consumption) {
+        
+    }
     }
 }
