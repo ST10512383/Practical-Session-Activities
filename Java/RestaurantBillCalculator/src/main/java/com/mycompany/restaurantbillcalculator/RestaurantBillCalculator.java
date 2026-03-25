@@ -26,6 +26,8 @@ public class RestaurantBillCalculator {
     }
     
     public static void calculateTotal(double mealPrice, double drinkPrice, double dessertPrice) {
+        // Calculate and assign back to variable
+        double totalBill = mealPrice + drinkPrice + dessertPrice;
         
     }
 }
