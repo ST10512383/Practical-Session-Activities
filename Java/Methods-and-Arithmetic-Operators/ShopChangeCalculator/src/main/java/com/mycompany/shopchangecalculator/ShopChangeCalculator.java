@@ -17,4 +17,8 @@ public class ShopChangeCalculator {
         double itemPrice = userInput.nextDouble();
     }
     
+    public static void getAmountPaid() {
+        System.out.println("Amount paid by customer: ");   
+        double amountPaid = userInput.nextDouble();
+    }
 }
