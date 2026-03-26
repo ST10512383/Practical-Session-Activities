@@ -16,6 +16,9 @@ public class MonthlyBudgetChecker {
         // Invoke calculateExpenses method and pass in method parameters
         double totalExpenses = calculateExpenses(foodExpenses, transportExpenses, entertainmentExpenses);
         
+        // Declare variable and calulate remaining student money
+        double remainingMoney = monthlyAllowance - totalExpenses;
+        
     }
     
     public static double calculateExpenses(double food, double transport, double entertainment) {
