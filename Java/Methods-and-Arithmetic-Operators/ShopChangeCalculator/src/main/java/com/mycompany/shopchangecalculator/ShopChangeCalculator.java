@@ -16,7 +16,7 @@ public class ShopChangeCalculator {
         // Invoke getAmountPaid
         double amountPaid = getAmountPaid();
         
-        calculateChange(itemPrice, amountPaid);
+       double change = calculateChange(itemPrice, amountPaid);
     }
     
     public static double getItemPrice() {
@@ -48,5 +48,9 @@ public class ShopChangeCalculator {
             System.out.println("Customer did not give full amoun2t!");
         }
         return change;
+    }
+    
+    public static void displayChange(double change) {
+        
     }
 }
