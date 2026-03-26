@@ -53,6 +53,6 @@ public class ShopChangeCalculator {
     }
     
     public static void displayChange(double change) {
-        
+        System.out.println("Change: R" + change);
     }
 }
