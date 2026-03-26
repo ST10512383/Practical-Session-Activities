@@ -19,6 +19,8 @@ public class MonthlyBudgetChecker {
         // Declare variable and calulate remaining student money
         double remainingMoney = monthlyAllowance - totalExpenses;
         
+        // Display remaining money to the user using GUI
+        JOptionPane.showMessageDialog(null, "Remaining money: R" + remainingMoney);
     }
     
     public static double calculateExpenses(double food, double transport, double entertainment) {
