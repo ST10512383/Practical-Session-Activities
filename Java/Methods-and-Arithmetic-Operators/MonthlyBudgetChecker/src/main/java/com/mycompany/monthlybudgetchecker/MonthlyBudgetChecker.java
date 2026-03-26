@@ -21,6 +21,13 @@ public class MonthlyBudgetChecker {
         
         // Display remaining money to the user using GUI
         JOptionPane.showMessageDialog(null, "Remaining money: R" + remainingMoney);
+        
+        // Check if the students total expenses is within their budget and display it using GUI
+        if (totalExpenses < monthlyAllowance) {
+            JOptionPane.showMessageDialog(null, "You are within budget.");
+        } else if (totalExpenses > monthlyAllowance) {
+            JOptionPane.showMessageDialog(null, "You are out of budget.");
+        }
     }
     
     public static double calculateExpenses(double food, double transport, double entertainment) {
