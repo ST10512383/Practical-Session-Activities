@@ -15,6 +15,8 @@ public class ShopChangeCalculator {
     
     public static void getItemPrice() {
         
+        System.out.print("Item Price: ");
+        double itemPrice = userInput.nextDouble();
     }
     
 }
