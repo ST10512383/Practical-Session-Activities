@@ -20,7 +20,8 @@ public class ShopChangeCalculator {
         
        double change = calculateChange(finalPrice, amountPaid);
        
-       displayChange(change);
+       
+       displayAmounts(amountPaid, change);
     }
     
     public static double getItemPrice() {
@@ -77,6 +78,13 @@ public class ShopChangeCalculator {
         
         return finalPrice;
     }
+    
+    public static void displayAmounts(double paid ,double change) {
+        
+        System.out.println("");
+        
+        System.out.println("Amount paid: R" + paid);
+        
         // Display change to customer
         System.out.println("Change: R" + change);
     }
