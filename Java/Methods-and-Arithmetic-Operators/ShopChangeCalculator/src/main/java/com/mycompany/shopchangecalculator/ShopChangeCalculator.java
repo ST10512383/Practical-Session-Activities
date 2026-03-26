@@ -11,7 +11,10 @@ public class ShopChangeCalculator {
     public static void main(String[] args) {
         
         // Invoke getItemPrice method
-        getItemPrice();
+       double itemPrice =  getItemPrice();
+        
+        // Invoke getAmountPaid
+        double amountPaid = getAmountPaid();
     }
     
     public static double getItemPrice() {
