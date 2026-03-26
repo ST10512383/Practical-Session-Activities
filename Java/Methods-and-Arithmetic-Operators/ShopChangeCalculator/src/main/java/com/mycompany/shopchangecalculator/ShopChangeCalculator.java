@@ -17,6 +17,8 @@ public class ShopChangeCalculator {
         double amountPaid = getAmountPaid();
         
        double change = calculateChange(itemPrice, amountPaid);
+       
+       displayChange(change);
     }
     
     public static double getItemPrice() {
