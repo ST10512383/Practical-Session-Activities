@@ -12,7 +12,9 @@ public class ShopChangeCalculator {
         
         // Invoke getItemPrice method
        double itemPrice =  getItemPrice();
-        
+       
+       double finalPrice =  calculateVat(itemPrice);
+       
         // Invoke getAmountPaid
         double amountPaid = getAmountPaid();
         
