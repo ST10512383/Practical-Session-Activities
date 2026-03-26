@@ -14,7 +14,7 @@ public class MonthlyBudgetChecker {
         double entertainmentExpenses = Double.parseDouble(JOptionPane.showInputDialog(null, "What are your entertainment expenses?"));
         
         // Invoke calculateExpenses method and pass in method parameters
-        calculateExpenses(foodExpenses, transportExpenses, entertainmentExpenses);
+        double totalExpenses = calculateExpenses(foodExpenses, transportExpenses, entertainmentExpenses);
         
     }
     
