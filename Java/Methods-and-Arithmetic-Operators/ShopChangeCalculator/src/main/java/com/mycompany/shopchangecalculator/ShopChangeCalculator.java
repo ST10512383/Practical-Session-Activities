@@ -35,4 +35,8 @@ public class ShopChangeCalculator {
         // Return variable amountPaid
         return amountPaid;
     }
+    
+    public static void calculateChange(double price, double paid) {
+        
+    }
 }
