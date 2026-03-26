@@ -45,6 +45,17 @@ public class ShopChangeCalculator {
     
     public static double calculateChange(double price, double paid) {
         
+        // Declare variable change
+        double change = 0.0;
+        
+        // Calculate price to always be a positive value
+        if (paid > price) {
+            change = paid - price;
+        } else if (paid < price) {
+            change = price - paid;
+        }
+        
+        // Error check to see if customer gave the full item amount
         if (paid < price) {
             System.out.println("Customer did not give full amount!");
         }
