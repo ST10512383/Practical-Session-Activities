@@ -34,7 +34,7 @@ public class ShopChangeCalculator {
     
     public static double getAmountPaid() {
         // Prompt user to enter the amount paid by the customer
-        System.out.println("Amount paid by customer: ");
+        System.out.print("Amount paid by customer: ");
         
         // Declare amountPaid and assing user input back to variable
         double amountPaid = userInput.nextDouble();
@@ -44,15 +44,16 @@ public class ShopChangeCalculator {
     }
     
     public static double calculateChange(double price, double paid) {
-        double change = price - paid;
         
         if (paid < price) {
-            System.out.println("Customer did not give full amoun2t!");
+            System.out.println("Customer did not give full amount!");
         }
+        
         return change;
     }
     
     public static void displayChange(double change) {
+        // Display change to customer
         System.out.println("Change: R" + change);
     }
 }
