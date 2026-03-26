@@ -63,7 +63,18 @@ public class ShopChangeCalculator {
         return change;
     }
     
-    public static void displayChange(double change) {
+    public static double calculateVat(double totalPrice) {
+        double VAT = totalPrice * 0.15;
+        double finalPrice = totalPrice + VAT;
+        
+        System.out.println("Total before VAT: R" + totalPrice);
+        System.out.println("VAT (15%): R" + VAT);
+        System.out.println("Final Price: R" + finalPrice);
+        
+        System.out.println("");
+        
+        return finalPrice;
+    }
         // Display change to customer
         System.out.println("Change: R" + change);
     }
