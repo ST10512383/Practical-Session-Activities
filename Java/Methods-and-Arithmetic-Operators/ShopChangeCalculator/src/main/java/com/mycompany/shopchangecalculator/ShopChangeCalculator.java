@@ -15,6 +15,8 @@ public class ShopChangeCalculator {
         
         // Invoke getAmountPaid
         double amountPaid = getAmountPaid();
+        
+        calculateChange(itemPrice, amountPaid);
     }
     
     public static double getItemPrice() {
