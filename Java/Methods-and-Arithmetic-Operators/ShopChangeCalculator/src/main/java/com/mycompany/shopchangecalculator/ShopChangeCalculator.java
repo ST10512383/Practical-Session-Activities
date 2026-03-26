@@ -12,13 +12,15 @@ public class ShopChangeCalculator {
         getItemPrice();
     }
     
-    public static void getItemPrice() {
+    public static double getItemPrice() {
         System.out.print("Item Price: ");
         double itemPrice = userInput.nextDouble();
+        return itemPrice;
     }
     
-    public static void getAmountPaid() {
+    public static double getAmountPaid() {
         System.out.println("Amount paid by customer: ");   
         double amountPaid = userInput.nextDouble();
+        return amountPaid;
     }
 }
