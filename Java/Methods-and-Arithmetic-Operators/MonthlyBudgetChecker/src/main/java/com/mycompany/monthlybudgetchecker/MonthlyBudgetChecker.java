@@ -8,4 +8,9 @@ public class MonthlyBudgetChecker {
     public static void main(String[] args) {
         
     }
+    
+    public static double calculateExpenses(double food, double transport, double entertainment) {
+     
+        return 0;
+    }
 }
