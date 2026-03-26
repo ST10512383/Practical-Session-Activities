@@ -26,10 +26,12 @@ public class ShopChangeCalculator {
     
     public static double getItemPrice() {
         // Prompt user to enter item price
-        System.out.print("Item Price: ");
-        
+        System.out.print("Item Price: R");
+
         // Declare itemPrice and assign user input back to variable
         double itemPrice = userInput.nextDouble();
+        
+        System.out.println("");
         
         // Return variable itemPrice
         return itemPrice;
@@ -37,7 +39,7 @@ public class ShopChangeCalculator {
     
     public static double getAmountPaid() {
         // Prompt user to enter the amount paid by the customer
-        System.out.print("Amount paid by customer: ");
+        System.out.print("Amount paid by customer: R");
         
         // Declare amountPaid and assing user input back to variable
         double amountPaid = userInput.nextDouble();
