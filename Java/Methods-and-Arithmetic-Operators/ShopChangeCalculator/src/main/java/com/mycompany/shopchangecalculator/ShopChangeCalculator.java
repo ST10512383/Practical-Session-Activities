@@ -9,18 +9,30 @@ public class ShopChangeCalculator {
     static Scanner userInput = new Scanner(System.in);
     
     public static void main(String[] args) {
+        
+        // Invoke getItemPrice method
         getItemPrice();
     }
     
     public static double getItemPrice() {
+        // Prompt user to enter item price
         System.out.print("Item Price: ");
+        
+        // Declare itemPrice and assign user input back to variable
         double itemPrice = userInput.nextDouble();
+        
+        // Return variable itemPrice
         return itemPrice;
     }
     
     public static double getAmountPaid() {
-        System.out.println("Amount paid by customer: ");   
+        // Prompt user to enter the amount paid by the customer
+        System.out.println("Amount paid by customer: ");
+        
+        // Declare amountPaid and assing user input back to variable
         double amountPaid = userInput.nextDouble();
+        
+        // Return variable amountPaid
         return amountPaid;
     }
 }
