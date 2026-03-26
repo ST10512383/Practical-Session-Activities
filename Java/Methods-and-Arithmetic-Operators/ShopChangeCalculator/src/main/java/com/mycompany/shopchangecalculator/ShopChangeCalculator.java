@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ShopChangeCalculator {
     
     // Instantiate Scanner object
-    Scanner userInput = new Scanner(System.in);
+    static Scanner userInput = new Scanner(System.in);
     
     public static void main(String[] args) {
         
