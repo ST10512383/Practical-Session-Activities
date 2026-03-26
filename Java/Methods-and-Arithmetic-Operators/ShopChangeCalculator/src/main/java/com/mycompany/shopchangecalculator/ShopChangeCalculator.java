@@ -41,7 +41,12 @@ public class ShopChangeCalculator {
         return amountPaid;
     }
     
-    public static void calculateChange(double price, double paid) {
+    public static double calculateChange(double price, double paid) {
+        double change = price - paid;
         
+        if (paid < price) {
+            System.out.println("Customer did not give full amoun2t!");
+        }
+        return change;
     }
 }
