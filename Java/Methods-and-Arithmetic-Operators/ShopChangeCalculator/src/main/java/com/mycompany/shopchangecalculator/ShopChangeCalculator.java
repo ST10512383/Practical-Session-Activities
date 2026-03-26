@@ -10,5 +10,11 @@ public class ShopChangeCalculator {
     
     public static void main(String[] args) {
         
+
     }
+    
+    public static void getItemPrice() {
+        
+    }
+    
 }
